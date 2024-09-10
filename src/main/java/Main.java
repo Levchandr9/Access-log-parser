@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
+import static java.lang.System.*;
+import static java.lang.System.out;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Random num fom 0 to 1: " + Math.random());
-
+        out.println("Введите текст и нажмите <Enter>: ");
+        String text = new Scanner(in).nextLine();
+        System.out.println("Длина текстаа: " + text.length());
     }
 }
